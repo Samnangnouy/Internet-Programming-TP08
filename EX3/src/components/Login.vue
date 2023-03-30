@@ -20,7 +20,6 @@
                 <div style="height: 50%; display: flex;justify-content: center;align-items: center;">
                     <img src="../assets/profile.png" style="height: 70%;">
                 </div>
-
                 <form onsubmit="return false">
                     <label>Email</label>
                     <input type="text" name="" id="email" ref="email" placeholder=" Enter email">
@@ -36,20 +35,11 @@
                 Forgot <a href="#" style="color:green; text-decoration:none">password?</a>
             </div>
         </div>
-
-        <!-- <router-view></router-view> -->
     </div>
 </template>
 <script>
 import router from "../router/index.js"
 export default {
-    // data() {
-    //     return {
-    //         route: router.getRoutes()[2].beforeEnter = (from, to, next) => {
-    //             next(false);
-    //         }
-    //     }
-    // },
     methods: {
         getInputElement() {
             return { email: this.$refs.email, password: this.$refs.password }
@@ -106,10 +96,7 @@ export default {
     width: 1300px;
     margin: auto;
     display: flex;
-
-    /* background-color: red; */
 }
-
 .left-side {
     width: 50%;
     height: 100%;
@@ -117,35 +104,26 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    /* background-color: blue; */
 }
-
 .ls_child {
     display: flex;
     column-gap: 10px;
 
 }
-
 .ls_child>:first-child {
     display: flex;
     align-items: center;
 }
-
 .ls_child>:nth-child(2)>:first-child {
     font-size: 3rem;
     margin: 0;
     color: green;
-    /* background-color: #fff; */
 }
-
 .ls_child>:nth-child(2)>:nth-child(2) {
 
     margin-top: 25px;
     margin-bottom: 35px;
 }
-
-/* ------------------------------------- */
 #login,
 #register {
     border: none;
@@ -153,7 +131,6 @@ export default {
     height: 22px;
     font-weight: 200;
 }
-
 #login:focus,
 #register:focus {
     color: rgb(16, 203, 88);
@@ -162,15 +139,10 @@ export default {
 input:focus::placeholder {
     color: transparent;
 }
-
-
-
 #login:hover,
 #register:hover {
     background-color: rgb(233, 233, 233);
 }
-
-
 .form-login {
     width: 40%;
     height: 100%;
@@ -180,19 +152,15 @@ input:focus::placeholder {
     align-items: center;
 
 }
-
 .form-login>:first-child {
     height: 80%;
     width: 90%;
     border: 1px solid rgb(190, 190, 190);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
-
 .form-login form {
     width: 90%;
     height: 50%;
@@ -200,7 +168,6 @@ input:focus::placeholder {
     flex-direction: column;
     row-gap: 3%;
 }
-
 .form-login form>* {
     margin-left: 4%;
 }
@@ -214,7 +181,6 @@ input:focus::placeholder {
     height: 13%;
     width: 90%;
 }
-
 .form-login #login {
     height: 14%;
     width: 95%;
@@ -224,20 +190,15 @@ input:focus::placeholder {
     color: white;
 
 }
-
 .form-login #login:hover {
     background-color: rgb(0, 177, 68);
 }
-
 .form-login #login:active {
     background-color: rgb(0, 93, 36);
 }
-
-/*  */
 .red-Placeholder::placeholder {
     color: red;
 }
-
 .login-fail-message {
     color: rgb(255, 183, 0);
     width: fit-content;
@@ -246,7 +207,6 @@ input:focus::placeholder {
     margin-right: auto;
     opacity: 0;
 }
-
 .login-fail {
     animation: disapear 10s forwards;
 }

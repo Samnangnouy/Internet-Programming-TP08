@@ -1,8 +1,6 @@
 
 <template>
     <div id="app">
-
-        <!-- <router-view></router-view> -->
         <div id="home">
             <nav id="nav">
                 <div class="logo">
@@ -41,8 +39,6 @@
             </div>
         </div>
     </div>
-
-    <!-- <RouterView /> -->
 </template>
 
 <style scoped>
@@ -105,7 +101,6 @@
     column-gap: 2.7rem;
     align-items: center;
 }
-
 .search-logout a{
     font-size: 1.3rem;
     text-decoration: none;

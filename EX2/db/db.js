@@ -22,7 +22,6 @@ const readUserData = () => {
       if (err) {
         return reject(err)
       }
-
       return resolve(JSON.parse(data));
     });
   })

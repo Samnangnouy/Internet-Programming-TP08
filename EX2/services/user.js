@@ -2,7 +2,6 @@
 var db = require("../db/db");
 
 const login = (email, password) => {
-  // to check in db if the user is existed
   return new Promise((resolve, rejects) => {
     db.getAllUsers().then((res) => {
       for (let user of res) {
@@ -17,10 +16,6 @@ const login = (email, password) => {
 };
 
 const register = (newUser) => {
-  // check email duplication
-  // check data validation
-  // save to database
-  // to check in db if the user is existed
   return new Promise((resolve, rejects) => {
     let bool=true;
     db.getAllUsers().then((res) => {

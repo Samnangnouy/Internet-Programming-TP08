@@ -6,10 +6,8 @@ const app = express();
 const cors=require('cors');
 app.use(cors({ origin: 'http://127.0.0.1:3000' }))
 
-
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
 
 app.post("/", function (req, res) {
   const { email, password } = req.body;

@@ -28,7 +28,6 @@
                 <input type="text" name="" ref="lastname" placeholder="   Last name">
                 <label for="">Password</label>
                 <input type="password" name="password" ref="password" placeholder="  Create your password">
-
                 <p style="font-size: 0.7rem; margin: 0;">By creating an account your agree to our <a href="#"
                         style="text-decoration: none; color:rgb(0, 190, 215)">Term</a>&ensp;&&ensp;<a href="#"
                         style="text-decoration: none; color:rgb(0, 190, 215)">Privacy</a></p>
@@ -38,8 +37,6 @@
                 </div>
             </form>
         </div>
-
-
         <div class="success-wrapper" ref="success">
             <div class="success">
             <p>Congratulation</p>
@@ -116,7 +113,6 @@ export default {
     border: 2px solid black;
     position: relative;
 }
-
 .left-side {
     width: 50%;
     height: 100%;
@@ -124,36 +120,24 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    /* background-color: blue; */
 }
-
 .ls_child {
     display: flex;
     column-gap: 10px;
-
 }
-
 .ls_child>:first-child {
     display: flex;
     align-items: center;
 }
-
 .ls_child>:nth-child(2)>:first-child {
     font-size: 3rem;
     margin: 0;
     color: green;
-    /* background-color: #fff; */
 }
-
 .ls_child>:nth-child(2)>:nth-child(2) {
-
     margin-top: 25px;
     margin-bottom: 35px;
 }
-
-
-/*  ---------------------------*/
 .form-register {
     width: 50%;
     height: 100%;
@@ -177,12 +161,10 @@ export default {
     min-height: fit-content;
     height: 80%;
     display: flex;
-
     flex-direction: column;
     justify-content: space-between;
     background-color: #fff;
 }
-
 .form-register form input {
     border: none;
     height: 6.6%;
@@ -190,7 +172,6 @@ export default {
     outline: none;
     background-color: rgb(241, 241, 241);
 }
-
 #signUp {
     border: none;
     height: 100%;
@@ -199,29 +180,20 @@ export default {
     color: white;
     background-color: rgb(16, 203, 88);
 }
-
 #signUp:hover {
     background-color: rgb(0, 177, 68);
 }
-
 #signUp:active {
     background-color: rgb(0, 93, 36)
 }
-
 .register-wrapper{
     height: 6.8%;
     display: flex;
     justify-content: space-around;
 }
-
-
-/*  */
-
 .red-Placeholder::placeholder {
     color: red;
 }
-
-
 .register-fail-message {
     color: rgb(153, 130, 0);
     font-weight: bold;
@@ -235,7 +207,6 @@ export default {
     border-radius: 5px;
     opacity: 0;
 }
-
 .register-fail {
     animation: disapear 50s forwards;
 }
@@ -249,12 +220,10 @@ export default {
         opacity: 0;
     }
 }
-
 .success-wrapper{
     height: 100%;
     width: 100%;
     position: absolute;
-
     display: none;
 }
 .success{
@@ -267,18 +236,15 @@ export default {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
 .success>:first-child{
     font-size: 2rem;
     font-weight: bold;
 }
-
 .success>:last-child{
     margin-top: 2rem;
     width: fit-content;
@@ -289,7 +255,4 @@ export default {
     color: white;
     cursor: pointer;
 }
-
-
-
 </style>

@@ -20,13 +20,12 @@
 
 <style>
     .login {
-            width: 250%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
+        width: 250%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     #login,
     #register {
