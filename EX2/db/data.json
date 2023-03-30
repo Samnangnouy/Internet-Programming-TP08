@@ -1,0 +1,37 @@
+[
+  {
+    "email": "samnangnouy200@gmail.com",
+    "username": "Samnang",
+    "firstname": "Samnang",
+    "lastname": "NOUY",
+    "password": "12345678"
+  },
+  {
+    "email": "hongneng.com",
+    "username": "Hong",
+    "firstname": "Hong",
+    "lastname": "NENG",
+    "password": "12345678"
+  },
+  {
+    "email": "samnangnouy@gmail.com",
+    "username": "SAMNANG",
+    "firstname": "NOUY",
+    "lastname": "Samnang",
+    "password": "12345678"
+  },
+  {
+    "email": "samnangnouy202@gmail.com",
+    "username": "SAMNANG",
+    "firstname": "NOUY",
+    "lastname": "SAMNANG",
+    "password": "09876543"
+  },
+  {
+    "email": "hongneng111@gmail.com",
+    "username": "HONG NENG",
+    "firstname": "HONG",
+    "lastname": "NENG",
+    "password": "12345678"
+  }
+]
